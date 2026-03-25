@@ -20,7 +20,7 @@
     <!-- Main Content Area -->
     <!-- We add padding to the body to prevent content overlap -->
     <div class="flex-grow-1 d-flex flex-column-reverse m-2 display-1 fw-bold text-light border-bottom border-2" style="height:500px;">
-        @foreach(var item in Model.Take(4))
+        @foreach(var item in Model)
         {
             <div class="m-2 p-3 row border-top border-2">
                 <div class="col-10 p-2">@item</div>
@@ -35,7 +35,7 @@
     <div class="row px-3 ms-1 fixed-bottom d-flex align-items-center">
         <a asp-action="Index" asp-controller="Home" type="button" class="btn btn-danger rounded-3 p-2 fw-bold col-6 fs-1">Cancel Sale</a>
         <div class="col-3 ms-auto text-light position-relative">
-            <a asp-action="Cart" asp-controller="Home" class="text-decoration-none text-light">
+            <a asp-action="Cart" asp-controller="Home" asp-route-id="" class="text-decoration-none text-light">
                 <i class="bi bi-cart4" style="font-size: 100px;"></i>
                 <span id="itemBadge" class="position-absolute top-50 start-50 translate-middle badge rounded-pill bg-danger fs-1">
                     @Model.Count()
