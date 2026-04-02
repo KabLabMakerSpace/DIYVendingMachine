@@ -10,4 +10,8 @@
     <Exec Command="npm run build --quiet" />
   </Target>
 
+  <ItemGroup>
+    <PackageReference Include="System.Device.Gpio" Version="4.2.0" />
+  </ItemGroup>
+
 </Project>
