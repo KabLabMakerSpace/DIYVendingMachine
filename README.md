@@ -38,4 +38,7 @@
 ### Checkpoint 1
 Here is a quick video of the first checkpoint.
 - https://youtube.com/shorts/rF5DmClw5Zs?si=EiYUYnB5nRpxue6H
+### Checkpoint 2
+A pic of the 3d printed motor mounts on din rail.
+<img width="4000" height="1616" alt="1000012055" src="https://github.com/user-attachments/assets/93b1e66b-42e9-4093-b1c2-c881b567abfa" />
 
