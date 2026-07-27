@@ -42,3 +42,6 @@ Here is a quick video of the first checkpoint.
 A pic of the 3d printed motor mounts on din rail.
 <img width="4000" height="1616" alt="1000012055" src="https://github.com/user-attachments/assets/93b1e66b-42e9-4093-b1c2-c881b567abfa" />
 
+Checkpoint 3
+new spirals - match for motor hub.
+<img width="4000" height="3000" alt="1000014622" src="https://github.com/user-attachments/assets/6b6b23fa-44a5-4d7d-8962-888135e002b2" />
