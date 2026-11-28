@@ -1,4 +1,4 @@
-namespace PPEVend.Mvc.Models
+namespace DIYVendingMachine.Mvc.Models
 {
     public class ErrorViewModel
     {

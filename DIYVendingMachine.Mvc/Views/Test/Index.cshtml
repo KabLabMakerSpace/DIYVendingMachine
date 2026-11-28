@@ -1,0 +1,27 @@
+﻿@model HashSet<int>
+@{
+    ViewData["Title"] = "Test";
+}
+<form asp-action="Toggle" method="post">
+    <div class="container">
+        @for (var row = 1; row <= 3; row++)
+        {
+            <div class="row g-3 mb-3">
+                @for (var column = 0; column < 4; column++)
+                {
+                    var channel = row * 10 + column;
+                    var isActive = Model.Contains(channel);
+                    <div class="col-3">
+                        <button type="submit" name="channel" value="@channel" aria-pressed="@isActive.ToString().ToLowerInvariant()" class="btn @(isActive ? "btn-success" : "btn-warning") w-100 py-4 fs-2">
+                            @channel
+                            @if (isActive)
+                            {
+                                <span class="spinner-border spinner-border-sm ms-2" aria-hidden="true"></span>
+                            }
+                        </button>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</form>

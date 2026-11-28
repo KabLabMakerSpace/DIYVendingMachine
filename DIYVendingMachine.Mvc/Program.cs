@@ -1,4 +1,4 @@
-namespace PPEVend.Mvc
+namespace DIYVendingMachine.Mvc
 {
     public class Program
     {

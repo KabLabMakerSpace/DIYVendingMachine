@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using PPEVend.Mvc.Models;
+using DIYVendingMachine.Mvc.Models;
 
-namespace PPEVend.Mvc.Controllers
+namespace DIYVendingMachine.Mvc.Controllers
 {
     public class HomeController : Controller
     {
@@ -88,11 +88,6 @@ namespace PPEVend.Mvc.Controllers
             {
                 return View("Shop", shoppingCart);
             }
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
