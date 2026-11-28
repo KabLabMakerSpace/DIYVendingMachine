@@ -1,7 +1,7 @@
 ﻿using System.Device.I2c;
 
 
-namespace PPEVend.Test
+namespace DIYVendingMachine.Test
 {
     internal class Program
     {
